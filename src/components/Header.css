@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.header1 {
+  background: rgba(255, 255, 255, 0.051);
+  transition: all 400ms;
+}
+
+.header2 {
+  background: #FAFAFA;
+  transition: all 400ms;
+}
+
+.nav-link {
+  font-size: 17px;
+  margin-right: 1.6rem;
+}
+
+.navlink1 {
+  color: #000;
+  font-weight: 500;
+}
+
+.navlink2 {
+  color: #000;
+  font-weight: 600;
+}
+
+.rede-social1 {
+  color: #000;
+}
+
+.rede-social2 {
+  color: #000;
+}
+
+.logo {
+  width: 4.2rem;
+  height: 4rem;
+}

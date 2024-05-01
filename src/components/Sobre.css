@@ -1,0 +1,95 @@
+.sobre {
+  margin-top: 5vh;
+  padding: 0vw 5vw 5vw 5vw;
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 6vw;
+  font-weight: 600;
+  width: 100%;
+  line-height: 100%;
+  color: #E61436;
+  padding-bottom: 0,5rem;
+  letter-spacing: -4px;
+}
+
+.subtitulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 3vw;
+  font-weight: 700;
+  color: #e46479;
+  padding: 2vw;
+}
+
+.font-sobre {
+  font-family: "Catamaran", sans-serif;  font-size: 2vw;
+  letter-spacing: 0px;
+  color: #7D7D7D;
+  margin-bottom: 2rem;
+  font-weight: 100;
+}
+
+.sobre-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 82%;
+}
+
+.sobre-container > img {
+  width: 20rem;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+/* Somente tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .titulo {
+    letter-spacing: -1px;
+  }
+
+  .subtitulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6EC1E4;
+    padding: 2vw;
+  }
+
+  .font-sobre {
+    font-size: 0.9rem;
+    margin-right: 14px;
+    margin-left: 14px;
+    letter-spacing: 0px;
+  }
+}
+
+/* Aplica a margem em telas small (sm) */
+@media (min-width: 0px) and (max-width: 767px) {
+  .titulo {
+    font-size: 8vw;
+    font-weight: 800;
+    width: 100%;
+    line-height: 100%;
+    color: #203556;
+    padding-bottom: 0rem;
+    letter-spacing: -2px;
+  }
+
+  .subtitulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6EC1E4;
+    padding: 2vw;
+  }
+
+  .font-sobre {
+    font-size: 0.6rem;
+    margin-right: 14px;
+    margin-left: 14px;
+    letter-spacing: 0px;
+    margin-bottom: 1rem;
+  }
+}
