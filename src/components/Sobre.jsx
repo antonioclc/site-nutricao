@@ -1,8 +1,8 @@
-import "./Secao1.css";
+import "./Sobre.css";
 import logo from "../../public/logo-nutriacao.png";
 import { SocialIcon } from "react-social-icons";
 
-function Secao1() {
+function Sobre() {
   return (
     <div className="sobre" id="sobre">
       <h1 className="titulo" data-aos="fade-up">
@@ -22,7 +22,7 @@ function Secao1() {
               um ato natural, saudável, gostoso e com custo viável. Nosso ideal
               é ensina a boa alimentação desde a primeira infância.
             </p>
-            <p className="font-sobre text-center fs-5" data-aos="zoom-in">
+            <p className="font-sobre text-center" data-aos="zoom-in">
               Siga nosso Instagram{" "}
               <SocialIcon
                 style={{ width: "30px", height: "30px" }}
@@ -40,4 +40,4 @@ function Secao1() {
   );
 }
 
-export default Secao1;
+export default Sobre;

@@ -1,9 +1,9 @@
-import "./Secao1.css";
+import "./Sobre.css";
 
-function Sobre() {
+function Secao1() {
   return (
     <div className="sobre" id="sobre">
-      <h2 className="subtitulo" data-aos="fade-right">
+      <h2 className="subtitulo" data-aos="fade-right" id="amamentacao">
         Papel da amamentação e a introdução alimentar nos hábitos alimentares
       </h2>
       <div className="d-flex justify-content-center align-items-center">
@@ -50,8 +50,12 @@ function Sobre() {
               principais são essenciais:
             </p>
             <p className="font-sobre mb-3" data-aos="zoom-in">
-              ● Hortaliças e frutas ● Carnes e ovos ● Cereais e tubérculos ●
-              Grãos
+              <ul>
+                <li>Hortaliças e frutas</li>
+                <li>Carnes e ovos</li>
+                <li>Cereais e tubérculos</li>
+                <li>Grãos</li>
+              </ul>
             </p>
             <p className="font-sobre mb-3" data-aos="zoom-in">
               Até o oitavo mês, é importante introduzir alimentos como ovos,
@@ -63,13 +67,21 @@ function Sobre() {
               Até os 2 anos de idade, é importante evitar itens como:
             </p>
             <p className="font-sobre mb-3" data-aos="zoom-in">
-              • Frituras • Enlatados • Salsichas • Refrigerantes • Café •
-              Salgadinhos • Balas • Açúcar adicionado nos alimentos
+              <ul>
+                <li>Frituras</li>
+                <li>Enlatados</li>
+                <li>Salsichas</li>
+                <li>Refrigerantes</li>
+                <li>Café</li>
+                <li>Salgadinhos</li>
+                <li>Balas</li>
+                <li>Açúcar adicionado nos alimentos</li>
+              </ul>
             </p>
           </div>
         </div>
       </div>
-      <h2 className="subtitulo" data-aos="fade-right">
+      <h2 className="subtitulo" data-aos="fade-right" id="primeira">
         Importância da Alimentação na Primeira Infância
       </h2>
       <div className="d-flex justify-content-center align-items-center">
@@ -130,15 +142,26 @@ function Sobre() {
             porém passa a destruir suas próprias células produtoras de insulina,
             resultando assim em uma doença autoimune. Alguns sintomas da doença
             em crianças e adolescentes ao longo do tempo podem ser indícios de
-            diabetes infantil, como por exemplo:<br></br>• – Sentir muita fome,
-            comer muito, porém emagrecer ou não ganhar peso; • – Ter muita sede;
-            • – Urinar muito e com frequência; • – Apresentar visão embaçada; •
-            – Sentir fraqueza ou falta de disposição para praticar atividades
-            diárias.
+            diabetes infantil, como por exemplo:
+          </p>
+          <p className="font-sobre mb-3" data-aos="zoom-in">
+            <ul>
+              <li>
+                Sentir muita fome, comer muito, porém emagrecer ou não ganhar
+                peso
+              </li>
+              <li>Ter muita sede</li>
+              <li>Urinar muito e com frequência</li>
+              <li>Apresentar visão embaçada</li>
+              <li>
+                Sentir fraqueza ou falta de disposição para praticar atividades
+                diárias
+              </li>
+            </ul>
           </p>
         </div>
       </div>
-      <h2 className="subtitulo" data-aos="fade-right">
+      <h2 className="subtitulo" data-aos="fade-right" id="desnutricao">
         Desnutrição
       </h2>
       <div className="d-flex justify-content-center align-items-center">
@@ -165,13 +188,10 @@ function Sobre() {
             doenças comuns da infância. Resfriados e diarreias, por exemplo,
             podem ser fatais.
           </p>
-          <p className="font-sobre mb-3" data-aos="zoom-in"></p>
-          <p className="font-sobre mb-3" data-aos="zoom-in"></p>
-          <p className="font-sobre mb-3" data-aos="zoom-in"></p>
         </div>
       </div>
     </div>
   );
 }
 
-export default Sobre;
+export default Secao1;

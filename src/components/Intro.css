@@ -18,3 +18,17 @@
   color: white;
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
+
+/* Somente tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .intro > h1 {
+    font-size: 6.5vh;
+  }
+}
+
+/* Aplica a margem em telas small (sm) */
+@media (min-width: 0px) and (max-width: 767px) {
+  .intro > h1 {
+    font-size: 3.8vh;
+  }
+}

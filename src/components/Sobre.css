@@ -11,7 +11,7 @@
   line-height: 100%;
   color: #E61436;
   padding-bottom: 0,5rem;
-  letter-spacing: -4px;
+  letter-spacing: -2px;
 }
 
 .subtitulo {
@@ -20,18 +20,12 @@
   font-weight: 700;
   color: #e46479;
   padding: 2vw;
-}
-
-.font-sobre {
-  font-family: "Catamaran", sans-serif;  font-size: 2vw;
-  letter-spacing: 0px;
-  color: #7D7D7D;
-  margin-bottom: 2rem;
-  font-weight: 100;
+  text-align: center;
 }
 
 .sobre-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
@@ -45,24 +39,31 @@
   margin-right: 1rem;
 }
 
+.font-sobre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 1.5vw;
+  letter-spacing: 0px;
+  color: #7D7D7D;
+  margin-top: 2rem;
+  font-weight: 100;
+}
+
 /* Somente tablets */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .titulo {
-    letter-spacing: -1px;
+    font-size: 6vw;
   }
 
   .subtitulo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #6EC1E4;
-    padding: 2vw;
+    font-size: 3.5vw;
+  }
+
+  .sobre-container > img {
+    width: 18rem;
   }
 
   .font-sobre {
-    font-size: 0.9rem;
-    margin-right: 14px;
-    margin-left: 14px;
-    letter-spacing: 0px;
+    font-size: 2vw;
   }
 }
 
@@ -70,26 +71,17 @@
 @media (min-width: 0px) and (max-width: 767px) {
   .titulo {
     font-size: 8vw;
-    font-weight: 800;
-    width: 100%;
-    line-height: 100%;
-    color: #203556;
-    padding-bottom: 0rem;
-    letter-spacing: -2px;
   }
 
   .subtitulo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #6EC1E4;
-    padding: 2vw;
+    font-size: 5vw;
+  }
+
+  .sobre-container > img {
+    width: 12rem;
   }
 
   .font-sobre {
-    font-size: 0.6rem;
-    margin-right: 14px;
-    margin-left: 14px;
-    letter-spacing: 0px;
-    margin-bottom: 1rem;
+    font-size: 3vw;
   }
 }

@@ -92,7 +92,7 @@ function Header() {
                 href="#sobre"
                 onClick={(e) => scrollToSection(e, "#sobre")}
               >
-                Sobre
+                Sobre Nós
               </a>
             </li>
             <li className="nav-item">
@@ -101,9 +101,9 @@ function Header() {
                   scrolled || isMenuOpen ? "navlink2" : "navlink1"
                 }`}
                 href="#servicos"
-                onClick={(e) => scrollToSection(e, "#servicos")}
+                onClick={(e) => scrollToSection(e, "#amamentacao")}
               >
-                Serviços
+                Amamentação e I.A.
               </a>
             </li>
             <li className="nav-item">
@@ -112,9 +112,9 @@ function Header() {
                   scrolled || isMenuOpen ? "navlink2" : "navlink1"
                 }`}
                 href="#clientes"
-                onClick={(e) => scrollToSection(e, "#clientes")}
+                onClick={(e) => scrollToSection(e, "#primeira")}
               >
-                Clientes
+                Primeira Infância
               </a>
             </li>
             <li className="nav-item">
@@ -122,22 +122,9 @@ function Header() {
                 className={`nav-link ${
                   scrolled || isMenuOpen ? "navlink2" : "navlink1"
                 }`}
-                href="#contato"
+                href="#desnutricao"
               >
-                Contato
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className={`nav-link ${
-                  scrolled || isMenuOpen ? "navlink2" : "navlink1"
-                }`}
-                href="webmail"
-                onClick={() =>
-                  window.open("https://webmail.mefengenharia.com/")
-                }
-              >
-                Webmail
+                Desnutrição
               </a>
             </li>
           </ul>
