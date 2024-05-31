@@ -1,6 +1,13 @@
 import "./Sobre.css";
 
 function Secao1() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "../../public/CARTILHA_NUTRICIONAL_vmi.pdf"; // Caminho para o PDF
+    link.download = "CARTILHA_NUTRICIONAL_vmi.pdf"; // Nome do arquivo ao fazer o download
+    link.click();
+  };
+
   return (
     <div className="sobre" id="sobre">
       <h2 className="subtitulo" data-aos="fade-right" id="amamentacao">
@@ -9,11 +16,11 @@ function Secao1() {
       <div className="d-flex justify-content-center align-items-center">
         <div className="sobre-container">
           <div>
-            <p className="font-sobre mb-3" data-aos="zoom-in">
+            <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
               A Organização Mundial de Saúde recomenda que o aleitamento materno
               seja feito de maneira exclusiva até o sexto mês de vida do bebê.
             </p>
-            <p className="font-sobre mb-3" data-aos="zoom-in">
+            <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
               A Introdução Alimentar é de extrema importância para que a criança
               tenha um crescimento adequado, evitando surgimento de doenças e
               alergias alimentares, obesidade infantil, até mesmo na fase
@@ -27,7 +34,7 @@ function Secao1() {
               dentes, por esta questão é primordial a alimentação ter sabores,
               texturas, cheiros e cores e ter uma evolução gradativa.
             </p>
-            <p className="font-sobre mb-3" data-aos="zoom-in">
+            <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
               A introdução alimentar infantil é uma fase caracterizada pela
               transição do leite exclusivo, materno ou fórmula láctea, para os
               primeiros alimentos sólidos, semi sólidos ou líquidos, em
@@ -35,13 +42,13 @@ function Secao1() {
               complementar é aquele durante o qual outros alimentos ou líquidos
               são oferecidos à criança além do leite materno.
             </p>
-            <p className="font-sobre mb-3" data-aos="zoom-in">
+            <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
               É na infância que ocorre a formação de muitos dos hábitos
               alimentares que se estenderão ao longo da vida. A I.A. é crucial
               para o desenvolvimento do paladar e o estabelecimento de hábitos
               alimentares diversificados.
             </p>
-            <p className="font-sobre mb-3" data-aos="zoom-in">
+            <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
               Para que a alimentação seja adequada, os alimentos consumidos
               precisam atender às necessidades diárias específicas de cada faixa
               etária em relação à energia, macro e micronutrientes. O Que
@@ -57,13 +64,13 @@ function Secao1() {
                 <li>Grãos</li>
               </ul>
             </p>
-            <p className="font-sobre mb-3" data-aos="zoom-in">
+            <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
               Até o oitavo mês, é importante introduzir alimentos como ovos,
               peixes e glúten para criar tolerância e evitar possíveis alergias.
               Evite bater os alimentos no liquidificador para permitir que a
               criança experimente novas texturas e sabores e aprenda a mastigar
             </p>
-            <p className="font-sobre mb-3" data-aos="zoom-in">
+            <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
               Até os 2 anos de idade, é importante evitar itens como:
             </p>
             <p className="font-sobre mb-3" data-aos="zoom-in">
@@ -86,7 +93,7 @@ function Secao1() {
       </h2>
       <div className="d-flex justify-content-center align-items-center">
         <div className="sobre-container">
-          <p className="font-sobre mb-3" data-aos="zoom-in">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
             A primeira infância é a idade em que os pais apresentam às crianças
             novos alimentos e sabores. Esse é o momento ideal para associar o
             gosto da comida saudável ao paladar dos pequenos, favorecendo assim
@@ -97,7 +104,7 @@ function Secao1() {
             à aprendizagem e ao bem-estar que o acompanharão para o resto da
             vida.
           </p>
-          <p className="font-sobre mb-3" data-aos="zoom-in">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
             Alguns dos problemas de riscos com uma alimentação inadequada:
             Obesidade A obesidade infantil acomete crianças até 12 anos e é
             caracterizada pelo excesso de peso para a idade. O diagnóstico pode
@@ -110,7 +117,7 @@ function Secao1() {
             2, pressão alta e colesterol elevado. Coração, rins e cérebro também
             podem ser afetados por esse mal.
           </p>
-          <p className="font-sobre mb-3" data-aos="zoom-in">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
             {" "}
             A alimentação, de fato, é um dos primeiros fatores que vem à cabeça,
             por isso, vamos começar por ela. Não há dúvidas de que cardápios
@@ -122,7 +129,7 @@ function Secao1() {
             Diabetes também é uma das doenças crônicas mais comuns de serem
             encontradas no público infantil, sendo que cerca de 20 a cada 100.
           </p>
-          <p className="font-sobre mb-3" data-aos="zoom-in">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
             crianças e adolescentes chegam a desenvolver a doença a cada ano,
             geralmente o Diabetes Mellitus tipo 1 ou DM1. Como o diabetes
             infantil influencia o organismo em um organismo normal, o açúcar
@@ -134,7 +141,7 @@ function Secao1() {
             insulina, e consequentemente a glicose não consegue chegar até às
             células, acarretando uma alta taxa de açúcar no sangue.
           </p>
-          <p className="font-sobre mb-3" data-aos="zoom-in">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
             Não são claros os motivos pelos quais as crianças deixam de produzir
             insulina, porém sabe-se que há uma associação entre tendência
             hereditária e alguma influência ambiental, como uma infecção por
@@ -166,7 +173,7 @@ function Secao1() {
       </h2>
       <div className="d-flex justify-content-center align-items-center">
         <div className="sobre-container">
-          <p className="font-sobre mb-3" data-aos="zoom-in">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
             A desnutrição infantil é uma condição clínica decorrente de uma
             deficiência ou excesso, relativo ou absoluto, de um ou mais
             nutrientes essenciais, segundo definição do Ministério da Saúde. Ela
@@ -177,7 +184,7 @@ function Secao1() {
             também à qualidade do que chega ao prato das crianças. O principal
             sintoma da desnutrição é a dificuldade para ganhar peso.
           </p>
-          <p className="font-sobre mb-3" data-aos="zoom-in">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
             Quando o peso não aumenta ou regride na curva de crescimento, a
             criança pode estar desnutrida. Esse sintoma pode ser acompanhado por
             falta de força e energia, além de dificuldade de concentração e
@@ -187,6 +194,41 @@ function Secao1() {
             têm o sistema imunológico enfraquecido e são menos resistentes às
             doenças comuns da infância. Resfriados e diarreias, por exemplo,
             podem ser fatais.
+          </p>
+        </div>
+      </div>
+      <h2 className="subtitulo" data-aos="fade-right" id="desnutricao">
+        Cartilha
+      </h2>
+      <div className="d-flex justify-content-center align-items-center">
+        <div className="sobre-container">
+          <p className="font-sobre mb-3 text-center" data-aos="zoom-in">
+            Como resultado de nossas pesquisas, realizamos uma ação na Escola
+            José Clarindo Gomes, localizada na cidade do Cabo de Santo
+            Agostinho, para destacar a importância de uma boa alimentação na
+            primeira infância. Com a colaboração de nutricionistas
+            especializados e em alinhamento com os Objetivos de Desenvolvimento
+            Sustentável (ODS) 2 - Fome Zero e Agricultura Sustentável e ODS 3 -
+            Saúde e Bem-estar, promovemos uma palestra de conscientização
+            alimentar e criamos uma cartilha sobre a importância de uma
+            alimentação saudável para as crianças. Reconhecemos que a vida
+            agitada e as inúmeras atividades diárias muitas vezes nos levam a
+            optar por opções mais práticas, que frequentemente não são
+            saudáveis. A cartilha contém sugestões de cardápios semanais, dicas
+            para montar uma lancheira saudável, orientações sobre a obesidade
+            infantil e uma série de receitas práticas com substituições
+            inteligentes de alguns alimentos. A cartilha foi distribuída em
+            formato impresso e está disponível para download abaixo.
+          </p>
+          <p className="font-sobre mb-3" data-aos="zoom-in">
+            <button
+              type="button"
+              className="btn btn-danger"
+              onClick={handleDownload}
+            >
+              {" "}
+              Download Cartilha
+            </button>
           </p>
         </div>
       </div>
