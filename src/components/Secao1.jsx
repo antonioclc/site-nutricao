@@ -197,7 +197,7 @@ function Secao1() {
           </p>
         </div>
       </div>
-      <h2 className="subtitulo" data-aos="fade-right" id="desnutricao">
+      <h2 className="subtitulo" data-aos="fade-right" id="cartilha">
         Cartilha
       </h2>
       <div className="d-flex justify-content-center align-items-center">

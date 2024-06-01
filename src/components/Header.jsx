@@ -127,6 +127,16 @@ function Header() {
                 Desnutrição
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                className={`nav-link ${
+                  scrolled || isMenuOpen ? "navlink2" : "navlink1"
+                }`}
+                href="#cartilha"
+              >
+                Cartilha
+              </a>
+            </li>
           </ul>
         </div>
       </div>
